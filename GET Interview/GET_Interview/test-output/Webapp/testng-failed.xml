@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Webapp]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Go(failed)">
+    <classes>
+      <class name="test.InvalidLogin">
+        <methods>
+          <include name="Open"/>
+          <include name="blank_usr"/>
+        </methods>
+      </class> <!-- test.InvalidLogin -->
+    </classes>
+  </test> <!-- Go(failed) -->
+</suite> <!-- Failed suite [Webapp] -->

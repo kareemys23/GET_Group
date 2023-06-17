@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome browser is opened]]>
+    </line>
+    <line>
+      <![CDATA[Chrome browser is maximized]]>
+    </line>
+    <line>
+      <![CDATA[Data is loaded from properties file.]]>
+    </line>
+    <line>
+      <![CDATA[Data meets requirements]]>
+    </line>
+    <line>
+      <![CDATA[Data entered]]>
+    </line>
+    <line>
+      <![CDATA[Account registered!]]>
+    </line>
+    <line>
+      <![CDATA[<a href="D:\GET Interview\GET_Interview\screenshots\screenshot1.png">Screenshot</a>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-18T01:31:50 AST" name="Default suite" finished-at="2023-06-18T01:32:14 AST" duration-ms="23962">
+    <groups>
+    </groups>
+    <test started-at="2023-06-18T01:31:50 AST" name="Default test" finished-at="2023-06-18T01:32:14 AST" duration-ms="23962">
+      <class name="test.Register">
+        <test-method is-config="true" signature="Open()[pri:0, instance:test.Register@6f36c2f0]" started-at="2023-06-18T01:31:50 AST" name="Open" finished-at="2023-06-18T01:31:56 AST" duration-ms="6365" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome browser is opened]]>
+            </line>
+            <line>
+              <![CDATA[Chrome browser is maximized]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Open -->
+        <test-method signature="signup()[pri:0, instance:test.Register@6f36c2f0]" started-at="2023-06-18T01:31:56 AST" name="signup" finished-at="2023-06-18T01:32:14 AST" duration-ms="17536" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Data is loaded from properties file.]]>
+            </line>
+            <line>
+              <![CDATA[Data meets requirements]]>
+            </line>
+            <line>
+              <![CDATA[Data entered]]>
+            </line>
+            <line>
+              <![CDATA[Account registered!]]>
+            </line>
+            <line>
+              <![CDATA[<a href="D:\GET Interview\GET_Interview\screenshots\screenshot1.png">Screenshot</a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- signup -->
+      </class> <!-- test.Register -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
